@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.header {
+    height: 90px;
+    width: 100%;
+    background-color: rgb(20, 20, 49);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    margin-left: 30px;
+}
+
+.logo {
+    height: 130px;
+    width: 150px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.header-right {
+    margin-right: 30px;
+}
+
+.header-btn {
+    font-size: 20px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    margin: 0px 22px;
+    cursor: pointer;
+}
+.header-btn:hover{
+    color: red;
+}
+.banner {
+    height: 1000px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.middle-card-text {
+    color: black;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-family: Helvetica, Arial, sans-serifregular;
+}
+
+.middle-cards {
+    width: 100%;
+    display: flex;
+    height: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-card1 {
+    width: 60%;
+    background-color: rgb(240, 145, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-card2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 200px 100px;
+}
+
+.card-text-parts {
+    margin: 30px 0px;
+}
+
+.facebook {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    margin: 10 0px;
+}
+
+.instagram {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.youtube {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.twitter {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.curve-img {
+    background-image: url("image/curve-img.png");
+    background-size: cover;
+    width: 800px;
+    height: 300px;
+}
+.bottom-img{
+    height: 1000px;
+    width: 100%;
+    object-fit: cover;
+}
+.footer{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-para{
+    color: black;
+    margin: 10px 0px;
+}
+.footer-part-1{    
+    width: 600px;
+    margin: 80px;
+}
+.footer-part-2{    
+    width: 600px;
+    margin: 80px;
+}
+.footer-part-3{    
+    width: 600px;
+    margin: 80px;
+}
+.list-item{
+    color: black;
+    font-size: 18px;
+}
+ul {
+    list-style-type: none;
+}
+.list{
+    margin: 10px 0px;
+}
+.list-item-bold{
+    font-weight: bold;
+    color: black;
+    margin: 10px 0px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.list-item-bold:hover{
+    color: red;
+    text-decoration: underline;
+}
+.annual-return{
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.annual-return:hover{
+    text-decoration: underline;
+    text-decoration: underline;
+    color: red;
+}
+.list-item-mail{
+    color: black;
+    cursor: pointer;
+    font-weight: bold;;
+}
+.footer-mail{
+    color: black;
+    font-weight: bold;
+}
+.footer-mail:hover{
+    color: red;
+    text-decoration: underline;
+}
+.policy{
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+.policy:hover{
+    color: red;
+    text-decoration: underline;
+}
+.instagram-footer{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+.instagram-footer:hover{
+    background-color: rgb(250, 34, 70);
+}
+.facebook-footer:hover{
+    background-color: rgb(250, 34, 70);
+}
+.linkedin-footer:hover{
+    background-color: rgb(250, 34, 70);
+}
+.twitter-footer:hover{
+    background-color: rgb(250, 34, 70);
+}
+.facebook-footer{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+.linkedin-footer{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+.twitter-footer{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
